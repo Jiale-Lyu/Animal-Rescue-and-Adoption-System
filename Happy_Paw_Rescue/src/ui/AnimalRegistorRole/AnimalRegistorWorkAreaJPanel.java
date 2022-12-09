@@ -4,40 +4,40 @@
  */
 package ui.AnimalRegistorRole;
 
+import model.EcoSystem.EcoSystem;
+import model.UserAccount.UserAccount;
+import java.awt.CardLayout;
+import javax.swing.JPanel;
 import model.Enterprise.AnimalShelterEnterprise;
 import model.Network.Network;
 import model.Organization.AnimalRegisterOrganization;
-import model.WorkQueue.WorkRequest;
-import java.awt.CardLayout;
-import model.EcoSystem.EcoSystem;
-import model.UserAccount.UserAccount;
-import javax.swing.JPanel;
-import javax.swing.table.DefaultTableModel;
-
 
 /**
  *
- * @author raunak
+ * @author Jiale Lyu
  */
+
+//animal registor work area jpanel
 public class AnimalRegistorWorkAreaJPanel extends javax.swing.JPanel {
     
-        private JPanel workArea;
-        private UserAccount account;
-        private AnimalRegisterOrganization organization;
-        private AnimalShelterEnterprise enterprise;
-        private Network network;
-        private EcoSystem ecosystem;
-    
-
+        private final Network network;
+        private final EcoSystem ecosystem;
+        private final JPanel workArea;
+        private final AnimalRegisterOrganization organization;
+        private final AnimalShelterEnterprise enterprise;
+        private final UserAccount account;
+        
+//constractor
     public AnimalRegistorWorkAreaJPanel(JPanel userProcessContainer, UserAccount account,  AnimalRegisterOrganization animalRegisterOrganization,AnimalShelterEnterprise animalShelterEnterprise, Network network, EcoSystem ecosystem) {
         initComponents();
 
         this.workArea = userProcessContainer;
         this.account = account;
-        this.organization = animalRegisterOrganization;
-        this.enterprise = animalShelterEnterprise;
         this.network = network;
         this.ecosystem = ecosystem;
+        this.organization = animalRegisterOrganization;
+        this.enterprise = animalShelterEnterprise;
+
     }
 
 
@@ -64,7 +64,7 @@ public class AnimalRegistorWorkAreaJPanel extends javax.swing.JPanel {
                 requestVolunteerJButtonActionPerformed(evt);
             }
         });
-        add(requestVolunteerJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, 240, 35));
+        add(requestVolunteerJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 250, 240, 50));
 
         registerAnimalJButton.setText("Register Animal");
         registerAnimalJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -72,7 +72,7 @@ public class AnimalRegistorWorkAreaJPanel extends javax.swing.JPanel {
                 registerAnimalJButtonActionPerformed(evt);
             }
         });
-        add(registerAnimalJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 210, 240, 35));
+        add(registerAnimalJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 180, 240, 50));
 
         lblTitle.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         lblTitle.setText("Animal Registor Work Area");
