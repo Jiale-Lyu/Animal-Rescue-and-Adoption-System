@@ -4,26 +4,26 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AnimalRegistorRole/RegistorAnimalJPanel.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AdministrativeRole/SysAdminDashboardJPanel.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/UserAccount/UserAccountDirectory.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AnimalRegistorRole/AnimalRegistorWorkAreaJPanel.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AnimalRegistorRole/RequestVolunteerJPanel.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/WorkQueue/AnimalManagerRequest.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/Basic/MainScreen.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AnimalManagerRole/ManageAnimalJPanel.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/Organization/AnimalRegisterOrganization.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/Main/LoginJPanel.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/Organization/OrganizationDirectory.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/UserAccount/UserAccount.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AnimalManagerRole/RequestMedicalCareJPanel.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/Role/AnimalRegisterRole.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AdministrativeRole/ManageUserAccountJPanel.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AnimalManagerRole/AdoptionRequestJPanel.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/Main/MainJFrame.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/Animal/AnimalDirectory.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AdministrativeRole/AdminWorkAreaJPanel.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AdoptionManager/AdoptionManagerWorkArea.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/EcoSystem/ConfigureASystem.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/Basic/LoginScreen.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/Animal/Animal.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/Organization/Organization.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AdministrativeRole/ManageOrganizationJPanel.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/Basic/MainJFrame.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/AnimalManagerRole/AnimalManagerWorkAreaJPanel.java</file>
+            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/ui/Adpoter/AdopterWorkArea.java</file>
             <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/Role/AnimalManagementRole.java</file>
-            <file>file:/C:/Users/Lv%20Jiale/Desktop/INFO5100/Assignment/INFO5100_Final_Project/Happy_Paw_Rescue/src/model/Organization/AnimalManagementOrganization.java</file>
         </group>
     </open-files>
 </project-private>
