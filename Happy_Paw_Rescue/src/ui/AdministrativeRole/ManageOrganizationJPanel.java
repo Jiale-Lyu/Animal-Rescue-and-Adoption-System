@@ -33,7 +33,8 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
 
         cmbOrganizations.removeAllItems();        
         populateNetworkCombo();
-        
+        lblOrganizationPicker.setVisible(false);
+        cmbNetworkList.setVisible(false);
     }
     
     /**
