@@ -1,7 +1,6 @@
 /*
  * AdminWorkAreaJPanel.java
  *
- * Created on October 10, 2008, 8:50 AM
  */
 
 package ui.AdministrativeRole;
@@ -99,7 +98,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(btnViewDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 360, 184, -1));
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
     private void btnManageUsersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageUsersActionPerformed
 

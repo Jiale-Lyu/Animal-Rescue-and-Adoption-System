@@ -81,7 +81,7 @@ public class AdopterWorkArea extends javax.swing.JPanel {
         jScrollPane2 = new javax.swing.JScrollPane();
         tblAdoptionRequests = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(255, 231, 231));
+        setBackground(new java.awt.Color(155, 209, 249));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblAuthorizationStatus.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
@@ -89,7 +89,7 @@ public class AdopterWorkArea extends javax.swing.JPanel {
         add(lblAuthorizationStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
         add(txtAuthorizationStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 45, 163, -1));
 
-        tblAnimalList.setBackground(new java.awt.Color(255, 238, 238));
+        tblAnimalList.setBackground(new java.awt.Color(204, 204, 204));
         tblAnimalList.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -125,7 +125,7 @@ public class AdopterWorkArea extends javax.swing.JPanel {
         lblAnimalSelection.setText("Animal Selection");
         add(lblAnimalSelection, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 104, -1, -1));
 
-        btnViewDetails.setBackground(new java.awt.Color(128, 80, 80));
+        btnViewDetails.setBackground(new java.awt.Color(102, 102, 102));
         btnViewDetails.setForeground(new java.awt.Color(238, 238, 238));
         btnViewDetails.setText("View");
         btnViewDetails.addActionListener(new java.awt.event.ActionListener() {
@@ -133,9 +133,9 @@ public class AdopterWorkArea extends javax.swing.JPanel {
                 btnViewDetailsActionPerformed(evt);
             }
         });
-        add(btnViewDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 300, -1, -1));
+        add(btnViewDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 300, -1, -1));
 
-        btnSendRequest.setBackground(new java.awt.Color(255, 161, 161));
+        btnSendRequest.setBackground(new java.awt.Color(102, 102, 102));
         btnSendRequest.setForeground(new java.awt.Color(238, 238, 238));
         btnSendRequest.setText("Adopt");
         btnSendRequest.addActionListener(new java.awt.event.ActionListener() {
@@ -150,7 +150,7 @@ public class AdopterWorkArea extends javax.swing.JPanel {
         lblAdoptionRequest.setText("Your Adoption Request");
         add(lblAdoptionRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 348, -1, -1));
 
-        tblAdoptionRequests.setBackground(new java.awt.Color(255, 238, 238));
+        tblAdoptionRequests.setBackground(new java.awt.Color(204, 204, 204));
         tblAdoptionRequests.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
