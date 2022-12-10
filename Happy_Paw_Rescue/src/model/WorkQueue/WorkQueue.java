@@ -6,13 +6,14 @@ package model.WorkQueue;
 
 import java.util.ArrayList;
 
+
 /**
  *
- * @author Jiale Lyu
+ * @author Yifei Chen
  */
 public class WorkQueue {
     
-    private final ArrayList<WorkRequest> workRequestList;
+    private ArrayList<WorkRequest> workRequestList;
 
     public WorkQueue() {
         workRequestList = new ArrayList<>();
