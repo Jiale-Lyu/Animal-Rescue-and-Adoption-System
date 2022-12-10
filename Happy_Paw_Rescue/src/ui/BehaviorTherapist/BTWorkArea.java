@@ -184,12 +184,12 @@ public class BTWorkArea extends javax.swing.JPanel {
             
             //if the selected request is processed
             if (request.getStatus().equalsIgnoreCase("Processed")) {
-                JOptionPane.showMessageDialog(this, "Request already processed.","Warning",JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(this, "Request has already been processed.","Warning",JOptionPane.WARNING_MESSAGE);
                 return;
                 
                 //if the selected request was completed
             } else if (request.getStatus().equalsIgnoreCase("Completed")) {
-                JOptionPane.showMessageDialog(this, "Request already completed.", "Thank you!", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(this, "Request has already been completed.", "Thank you!", JOptionPane.WARNING_MESSAGE);
                 return;
                 
             } else {

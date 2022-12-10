@@ -171,7 +171,7 @@ public class PharmacistWorkArea extends javax.swing.JPanel {
             //if the status of the  selected row is processed
             if (request.getStatus().equalsIgnoreCase("Processed")) {
                 
-                JOptionPane.showMessageDialog(this, "Request has already processed.",
+                JOptionPane.showMessageDialog(this, "Request has already been processed.",
                         "Warning",JOptionPane.WARNING_MESSAGE);
                 return;
                 

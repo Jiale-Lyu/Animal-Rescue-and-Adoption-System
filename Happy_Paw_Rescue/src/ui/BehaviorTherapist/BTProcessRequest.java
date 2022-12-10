@@ -128,7 +128,7 @@ public class BTProcessRequest extends javax.swing.JPanel {
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
         if (txtResults.getText().isEmpty()) {
             
-            JOptionPane.showMessageDialog(this, "Please enter message","Warning",
+            JOptionPane.showMessageDialog(this, "You should enter some message please","Warning",
                     JOptionPane.WARNING_MESSAGE);
             
         } else {

@@ -123,7 +123,7 @@ public class PharmacistProcessRequest extends javax.swing.JPanel {
         //if no message
        if (txtResults.getText().isEmpty()) {
            
-            JOptionPane.showMessageDialog(this, "Please enter some message","Warning",
+            JOptionPane.showMessageDialog(this, "You should enter some message please","Warning",
                     JOptionPane.WARNING_MESSAGE);
             
         } else {
