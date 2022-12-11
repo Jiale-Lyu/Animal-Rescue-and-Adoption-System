@@ -7,12 +7,11 @@
 * [x] Street animals have a high mortality rate because they have no fixed food source and safe environment.
 
 #### Solutions
-* [x] We combine these problems together and provide a system that makes the process of adopting stray animals easy and convenient. 
+* [x] We combine these problems together and provide a system that makes the process of adopting stray animals easy and convenient with **Java Swing** and **DB4O** for data storage. 
 * [x] The purpose of our system is to make sure the animal is healthy both mentally and physically and verify the adopter is qualified before accessing the animal's information at the same time. We also provide the opportunity to volunteer and the volunteers could process their work independently.
 * [x] We consider the use case from rescuers, medical checkers, volunteers, and adopters. At the same time, with the use case of system administrator, this system is expandable at the global level. 
 * [x] Every animal is responsible by a single manager, the manager is permitted to have an overview of an animal.
 
-* [x] Fetch
 
 ## Entities  
 ● Entreprise
