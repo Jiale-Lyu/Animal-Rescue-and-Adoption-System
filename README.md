@@ -45,12 +45,12 @@
 
 
 ## Models
-#### UML Model
+#### Class Design Model
 <p align="center" width="100%">
     <img src="/Happy_Paw_Rescue/AnimalPhoto/readimg/Class.png">
 </p>
 
-#### Class Design Model
+#### UML Model
 <p align="center" width="100%">
     <img src="/Happy_Paw_Rescue/AnimalPhoto/readimg/UML.png">
 </p>
