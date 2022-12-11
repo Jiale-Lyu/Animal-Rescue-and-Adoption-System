@@ -47,24 +47,28 @@
 ## Models
 #### UML Model
 <p align="center" width="100%">
-    <img src="/src/assets/readMeFiles/overview.apng">
+    <img src="/Happy_Paw_Rescue/AnimalPhoto/readimg/Class.png">
 </p>
 
 #### Class Design Model
 <p align="center" width="100%">
-    <img src="/src/assets/readMeFiles/overview.apng">
+    <img src="/Happy_Paw_Rescue/AnimalPhoto/readimg/UML.png">
 </p>
 
 ## Key Features
 #### Advance Feature
 * [x] Service Overflow 
 <p align="center" width="100%">
-    <img src="/src/assets/readMeFiles/overview.apng">
+    <img src="/Happy_Paw_Rescue/AnimalPhoto/readimg//Dashboard.png" width="800px" >
 </p>
 
 * [x] Email Verification 
 <p align="center" width="100%">
-    <img src="/src/assets/readMeFiles/overview.apng">
+    <img src="/Happy_Paw_Rescue/AnimalPhoto/readimg/Email1.png" width="500px">
+</p>
+
+<p align="center" width="100%">
+    <img src="/Happy_Paw_Rescue/AnimalPhoto/readimg/Email2.png" width="500px">
 </p>
 
 
