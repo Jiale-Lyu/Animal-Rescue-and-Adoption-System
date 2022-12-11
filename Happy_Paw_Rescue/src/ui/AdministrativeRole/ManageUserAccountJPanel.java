@@ -9,6 +9,8 @@ import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
+
 import model.EcoSystem.EcoSystem;
 import model.Enterprise.Enterprise;
 import model.Network.Network;
@@ -71,6 +73,7 @@ public final class ManageUserAccountJPanel extends javax.swing.JPanel {
         txtUserName = new javax.swing.JTextField();
         pwdUser = new javax.swing.JPasswordField();
         btnCreateUser = new javax.swing.JButton();
+        btnDeleteUser = new javax.swing.JButton();
         lblPassword = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(155, 209, 249));
@@ -141,7 +144,8 @@ public final class ManageUserAccountJPanel extends javax.swing.JPanel {
         lblCreateUser.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lblCreateUser.setText("New User:");
         add(lblCreateUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 400, -1, 40));
-
+        //delete region
+        lblOrganizationPicker.setVisible(false);
         lblOrganizationPicker.setText("Region:");
         add(lblOrganizationPicker, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 410, -1, -1));
 
@@ -192,10 +196,32 @@ public final class ManageUserAccountJPanel extends javax.swing.JPanel {
         });
         add(btnCreateUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 520, -1, -1));
 
+        btnDeleteUser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/icon_delete.png")));
+        btnDeleteUser.setBackground(new java.awt.Color(245, 245, 255));
+        btnDeleteUser.setFont(new java.awt.Font("Lucida Grande", 1, 11)); // NOI18N
+        btnDeleteUser.setText("Delete User");
+        btnDeleteUser.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDeleteUserActionPerformed(evt);
+            }
+        });
+        add(btnDeleteUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 520, -1, -1));
+
+
         lblPassword.setText("Password:");
         add(lblPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 480, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * //todo confirm cosonle
+     * @param evt
+     */
+    private void btnDeleteUserActionPerformed(java.awt.event.ActionEvent evt) {
+        int selectedRow = tblUsers.getSelectedRow();
+        DefaultTableModel model = (DefaultTableModel) tblUsers.getModel();
+        model.removeRow(selectedRow);
+        System.out.println(selectedRow);
+    }
     private void btnCreateUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreateUserActionPerformed
         
         try{
@@ -204,6 +230,7 @@ public final class ManageUserAccountJPanel extends javax.swing.JPanel {
             String password = String.valueOf(pwdUser.getPassword());
 
             Network network = (Network) cmbNetworkList.getSelectedItem();
+
 
             String selectedEntOption = (String) cmbEnterprise.getSelectedItem();
             String enterpriseName = selectedEntOption.split("\\s\\|\\s")[1];            
@@ -276,6 +303,7 @@ public final class ManageUserAccountJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack;
     private javax.swing.JButton btnCreateUser;
+    private javax.swing.JButton btnDeleteUser;
     private javax.swing.JComboBox cmbEnterprise;
     private javax.swing.JComboBox cmbNetworkList;
     private javax.swing.JComboBox cmbOrg;
@@ -364,6 +392,7 @@ public final class ManageUserAccountJPanel extends javax.swing.JPanel {
 
         DefaultTableModel model = (DefaultTableModel) tblUsers.getModel();
         model.setRowCount(0);
+
 
         for (UserAccount ua : ecoSystem.getUserAccountDirectory().getUserAccountList()){
                 Object row[] = new Object[5];
