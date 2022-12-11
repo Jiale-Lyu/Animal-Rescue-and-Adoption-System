@@ -216,6 +216,12 @@ public final class ManageUserAccountJPanel extends javax.swing.JPanel {
      * //todo confirm cosonle
      * @param evt
      */
+    private void btnDeleteUserActionPerformed(java.awt.event.ActionEvent evt) {
+        int selectedRow = tblUsers.getSelectedRow();
+        DefaultTableModel model = (DefaultTableModel) tblUsers.getModel();
+        model.removeRow(selectedRow);
+        System.out.println(selectedRow);
+    }
     private void btnCreateUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreateUserActionPerformed
         
         try{
