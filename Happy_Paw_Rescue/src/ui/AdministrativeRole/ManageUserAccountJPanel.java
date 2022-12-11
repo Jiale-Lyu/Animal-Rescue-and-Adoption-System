@@ -32,7 +32,8 @@ public final class ManageUserAccountJPanel extends javax.swing.JPanel {
 
     public ManageUserAccountJPanel(JPanel userProcessContainer, EcoSystem ecosystem) {
         initComponents();
-        
+        lblOrganizationPicker.setVisible(false);
+        cmbNetworkList.setVisible(false);
         this.userProcessContainer = userProcessContainer;
         this.ecoSystem = ecosystem;
         

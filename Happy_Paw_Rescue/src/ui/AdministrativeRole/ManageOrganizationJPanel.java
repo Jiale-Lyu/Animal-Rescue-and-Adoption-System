@@ -144,7 +144,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         add(lblOrganizationAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 380, -1, -1));
 
         lblOrganizationPicker.setText("Select Region:");
-        add(lblOrganizationPicker, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 430, -1, -1));
+        add(lblOrganizationPicker, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 490, -1, -1));
 
         cmbNetworkList.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         cmbNetworkList.addActionListener(new java.awt.event.ActionListener() {
@@ -152,7 +152,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
                 cmbNetworkListActionPerformed(evt);
             }
         });
-        add(cmbNetworkList, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 420, 230, -1));
+        add(cmbNetworkList, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 490, 230, -1));
 
         cmbEnterpriseList.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         cmbEnterpriseList.addActionListener(new java.awt.event.ActionListener() {
@@ -160,10 +160,10 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
                 cmbEnterpriseListActionPerformed(evt);
             }
         });
-        add(cmbEnterpriseList, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 480, 230, -1));
+        add(cmbEnterpriseList, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 430, 230, -1));
 
         lblOrganizationPicker1.setText("Select Enterprise:");
-        add(lblOrganizationPicker1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 480, -1, -1));
+        add(lblOrganizationPicker1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 430, -1, -1));
 
         lblOrganizationName.setText("Organization Name:");
         add(lblOrganizationName, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 480, -1, -1));
